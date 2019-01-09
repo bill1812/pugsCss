@@ -10,4 +10,4 @@ Test run on window.
 
 **Known Issue**
 
-empty \pulic\css didn't appear in this repository
+empty \public\css didn't appear in this repository
