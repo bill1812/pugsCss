@@ -1,0 +1,13 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    "**/cache/**",
+    "**/tmp/**",
+    "**/*.txt",
+    "**/*.md"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js,json"
+}

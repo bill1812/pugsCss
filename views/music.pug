@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/css/music.css')
+    script(type='text/javascript', src='//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.0/seedrandom.min.js')
+    script(type='text/javascript', src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/111863/Tone.r7.min.js')
+  body
+    section.container
+    aside
+      h1 “In C”
+      h2 © 1964 Terry Riley
+      p
+        i Performed by CodePen and Tone.js
+      p
+        | This only performs well in Google Chrome and Safari. Occasionally cuts out on slower machines.
+      p
+        a(href='https://en.wikipedia.org/wiki/In_C') “In C”
+        |  is a musical piece intended to be played by a variable amount of performers.
+        |     The piece is divided into 53 segments that are to be played, “consecutively with each performer having the freedom to
+        |     determine how many times he or she will repeat each pattern before moving on to the next.”
+        |     This performance is truncated from the preferred 45-90 seconds per segment to 7.5-15 seconds per segment if played at 120 bpm.
+      p
+        | This pen was inspired by a CodePen-powered performance of “In C” by
+        a(href='https://codepen.io/barefootfunk') Bryant Smith
+        |     at a recent CodePen Chicago meetup, which you can read more about and view a video of  
+        a(href='https://codepen.io/poopsplat/post/codepen-chicago-june-2016') here
+        | .
+    script(type='text/javascript', src='/js/music.js')

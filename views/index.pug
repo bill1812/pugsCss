@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= title
+  h2 Welcome to #{title}
+  div
+    h3 Demo and 
+      a(href='https://stackoverflow.com/questions/43641721/pug-image-as-a-link') Pug images as link
+    br
+    div
+    h4
+      a(href='/ball')
+        img(src='/img/Billiard.jpeg', alt='Billiard', width='300', height='300')
+      |  Billiard from  
+      a(href='https://codepen.io/jakealbaugh/pen/QOLgev') Codepen
+    div
+    h4
+      a(href='/music')
+        img(src='/img/inc.jpg', alt='In C(1964)', width='300', height='300')
+      |  Terry Riley in C (1964) from  
+      a(href='https://codepen.io/jakealbaugh/pen/NAjdLY') Codepen
